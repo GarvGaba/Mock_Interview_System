@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prep.Edge</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+      <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">Prep<span class="text-dark">.</span>Edge</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="interview.html" class="dropdown-item">Mock Interview System</a>
+                                <a href="resume.html" class="dropdown-item">Resume Hub</a>
+                                <a href="" class="dropdown-item">ATS predictor</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="" class="nav-item nav-link">LogIn</a>
+
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Our Services</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Our Services</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+       <!-- Service Start -->
+       <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                    <img class="img-fluid" src="img/Ai-service.png">
+                    <h1 class="mb-4">Empowering Your Career with Comprehensive Interview Preparation</h1>
+                    <p class="mb-4">At PrepEdge, we offer a suite of services designed to enhance your interview skills and boost your confidence. Our advanced AI technology provides tailored mock interviews and personalized feedback, ensuring you are well-prepared for any interview scenario. From resume optimization to skill development, our resources and tools are crafted to support your career growth. Explore our services and discover how PrepEdge can help you achieve your professional goals.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="service.html">Read More</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Mock Interview System</h5>
+                                        <p>Prepare for interviews with personalized, AI-driven mock sessions. Receive instant feedback to refine your responses and boost your confidence.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="interview.html">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-file fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Resume Hub</h5>
+                                        <p>Enhance your resume with detailed, expert feedback tailored to attract employers. Perfect your presentation and stand out in the job market with our Resume hub service.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="resume.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-cogs fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Applicant Tracking System</h5>
+                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
+                                            diam sed stet lorem.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-video fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Video CV Lab</h5>
+                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
+                                            diam sed stet lorem.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+  <!-- Newsletter Start -->
+  <div class="container-fluid bg-primary newsletter py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                <img class="img-fluid" src="img/newsletter.png" alt="">
+            </div>
+            <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Give Feeback</div>
+                <h1 class="text-white mb-4">Let's Improve PrepEdge Together!</h1>
+                <div class="position-relative w-100 mt-3 mb-2">
+                    
+                    <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                        placeholder="Your feedback and suggestions..." style="height: 48px;">
+                    <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                            class="fa fa-paper-plane text-primary fs-4"></i></button>
+                </div>
+                <small class="text-white-50">Share your valuable feedback and suggestions with us to help improve your PrepEdge experience!
+
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    document.getElementById('submitFeedback').addEventListener('click', function() {
+      console.log("Submit button clicked");
+      const feedbackText = document.getElementById('feedbackInput').value;
+      
+      if (feedbackText.trim() === '') {
+        alert('Please enter your feedback before submitting.');
+        return;
+      }
+    
+      console.log("Sending fetch request to /api/feedback");
+      fetch('/api/feedback', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ feedback: feedbackText }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log("Server response:", data);
+        alert('Thank you for your feedback!');
+        document.getElementById('feedbackInput').value = '';
+      })
+      .catch((error) => {
+        
+        console.error('Error:', error);
+        alert('An error occurred while submitting your feedback. Please try again.');
+      });
+    });
+    </script>
+<!-- Newsletter End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <a href="index.html" class="d-inline-block mb-3">
+                    <h1 class="text-white">Prep<span class="text-primary">.</span>Edge</h1>
+                </a>
+                <p class="mb-0">Preparing You for Career Excellence.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <h5 class="text-white mb-4">Get In Touch</h5>
+                <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <h5 class="text-white mb-4">Popular Link</h5>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Career</a>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <h5 class="text-white mb-4">Our Services</h5>
+                <a class="btn btn-link" href="">Mock Interview Hub</a>
+                <a class="btn btn-link" href="">Resume Lab</a>
+                <a class="btn btn-link" href="">Applicant Tracking System</a>
+                <a class="btn btn-link" href="">Video CV Editor</a>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">PrepEdge</a>, All Right Reserved.
+<br>
+                    Designed By Flamethrowers</a> 
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
